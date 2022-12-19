@@ -1,0 +1,13 @@
+body {
+    background-color: aqua;
+    text-align: center;
+}
+img{
+    width: 200px;
+    border: 2px solid black;
+}
+
+img:hover{
+    border-radius: 140;
+    
+}

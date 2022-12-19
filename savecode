@@ -1,0 +1,14 @@
+ <div id="resultRow">
+            <div id="result1" class="column">
+                <img } id="resultt1"
+                    src="https://tse2.explicit.bing.net/th?id=OIP.4O2_juqrbPWGnM69UKzNvAHaE8&pid=Api&P=0">
+            </div>
+
+            <div id="result2" class="column">
+                <img id="resultt2"
+                    src="https://images.pexels.com/photos/225157/pexels-photo-225157.jpeg?w=1200&h=627&fit=crop&auto=compress&cs=tinysrgb">
+            </div>
+
+            <div id="result3" class="column">
+                <img id="resultt3"
+                    src="https://images.unsplash.com/photo-1512790182412-b19e6d62bc39?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FtZXJhfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80">

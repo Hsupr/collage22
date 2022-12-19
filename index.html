@@ -1,0 +1,54 @@
+<html>
+    <head>
+       <title>My Selfie App</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+<link href="style.css" rel="stylesheet">
+
+</head>
+ 
+<body>
+    <div class="container">
+    <center>
+        <a href="" id="link" download="selfie.jpeg"></a>
+        <h1>Voice Selfie App 
+        
+        </h1>
+        <hr>
+        <h4 style="color:red;">Please press allow as soon as popup comes. After you give a voice command</h4>
+        
+        <div class="form-group">
+            <div id="resultRow">
+                <div id="result1" class="column">
+                    <img  id="resultt1"
+                        src="https://tse2.explicit.bing.net/th?id=OIP.4O2_juqrbPWGnM69UKzNvAHaE8&pid=Api&P=0">
+                </div>
+    
+                <div id="result2" class="column">
+                    <img id="resultt2"
+                        src="https://images.pexels.com/photos/225157/pexels-photo-225157.jpeg?w=1200&h=627&fit=crop&auto=compress&cs=tinysrgb">
+                </div>
+    
+                <div id="result3" class="column">
+                    <img  id="resultt3"
+                        src="https://images.unsplash.com/photo-1512790182412-b19e6d62bc39?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FtZXJhfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80">
+    
+
+        <p>Press the Start button</p>
+         <button class="btn btn-primary" id="start-btn" onclick="start()">Start</button>
+        <br>
+         <label>Your webcam : </label>
+         <div id="camera"></div>
+        <br>
+       
+        <label>Your selife Will Display Here: </label>
+         <div id="result"></div>
+    </center>
+    </div>
+     
+    <script src="main.js"></script>
+</body>
+</html>
